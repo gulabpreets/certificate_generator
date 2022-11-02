@@ -64,3 +64,7 @@ document.getElementById("submit").addEventListener("click",()=>{
         generatePDF(name);    
 })
 
+document.getElementById("reset").addEventListener("click",()=>{
+    document.getElementById("name").value="";
+})
+
